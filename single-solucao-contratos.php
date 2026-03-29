@@ -9,7 +9,7 @@
  * O mega menu aponta para get_permalink() do post — zero config extra.
  */
 
-defined( 'ABSPATH' ) || exit;
+defined('ABSPATH') || exit;
 
 get_header();
 ?>
@@ -23,7 +23,7 @@ get_header();
         <div class="ct-hero__content">
 
             <div class="ct-hero__breadcrumb">
-                <a href="<?php echo esc_url( get_post_type_archive_link( 'solucao' ) ?: home_url( '/solucoes/' ) ); ?>">
+                <a href="<?php echo esc_url(get_post_type_archive_link('solucao') ?: home_url('/solucoes/')); ?>">
                     <i class="bi bi-grid-3x3-gap"></i> Soluções
                 </a>
                 <i class="bi bi-chevron-right"></i>
@@ -63,7 +63,7 @@ get_header();
             </div>
 
             <div class="ct-hero__actions">
-                <a href="<?php echo esc_url( home_url( '/contato/' ) ); ?>" class="btn-custom-primary btn-lg">
+                <a href="<?php echo esc_url(home_url('/contato/')); ?>" class="btn-custom-primary btn-lg">
                     <i class="bi bi-calendar-check"></i>
                     Solicitar demonstração
                 </a>
@@ -92,7 +92,7 @@ get_header();
     <!-- Decorative wave -->
     <div class="ct-hero__wave">
         <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-            <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+            <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#ffffff" />
         </svg>
     </div>
 </section>
@@ -132,8 +132,10 @@ get_header();
             <div class="section-label">Sobre o Sistema</div>
             <h2>Gestão completa de contratos administrativos</h2>
             <p>
-                O sistema de Contratos Betha oferece uma solução completa para gerenciar todos os contratos administrativos
-                da sua entidade pública. Desde o cadastro até a extinção, cada etapa do ciclo de vida do contrato é controlada
+                O sistema de Contratos Betha oferece uma solução completa para gerenciar todos os contratos
+                administrativos
+                da sua entidade pública. Desde o cadastro até a extinção, cada etapa do ciclo de vida do contrato é
+                controlada
                 de forma automatizada.
             </p>
             <p>
@@ -467,7 +469,8 @@ get_header();
                     <i class="bi bi-plus-lg"></i>
                 </button>
                 <div class="ct-faq__answer">
-                    <p>Sim, o sistema possui controle completo de vigência com alertas automáticos para contratos próximos ao vencimento e renovação.</p>
+                    <p>Sim, o sistema possui controle completo de vigência com alertas automáticos para contratos
+                        próximos ao vencimento e renovação.</p>
                 </div>
             </div>
 
@@ -477,7 +480,8 @@ get_header();
                     <i class="bi bi-plus-lg"></i>
                 </button>
                 <div class="ct-faq__answer">
-                    <p>Sim, o sistema permite cadastrar e gerenciar todos os tipos de aditamento, incluindo prazo, valor e objeto, com histórico completo.</p>
+                    <p>Sim, o sistema permite cadastrar e gerenciar todos os tipos de aditamento, incluindo prazo, valor
+                        e objeto, com histórico completo.</p>
                 </div>
             </div>
 
@@ -487,7 +491,8 @@ get_header();
                     <i class="bi bi-plus-lg"></i>
                 </button>
                 <div class="ct-faq__answer">
-                    <p>Sim, o sistema permite cadastrar todas as obrigações contratuais, com alertas de vencimento e controle de multas.</p>
+                    <p>Sim, o sistema permite cadastrar todas as obrigações contratuais, com alertas de vencimento e
+                        controle de multas.</p>
                 </div>
             </div>
 
@@ -497,7 +502,8 @@ get_header();
                     <i class="bi bi-plus-lg"></i>
                 </button>
                 <div class="ct-faq__answer">
-                    <p>Sim, o sistema foi desenvolvido para atender integralmente a Lei 14.133/2021, incluindo todas as funcionalidades necessárias para gestão contratual.</p>
+                    <p>Sim, o sistema foi desenvolvido para atender integralmente a Lei 14.133/2021, incluindo todas as
+                        funcionalidades necessárias para gestão contratual.</p>
                 </div>
             </div>
 
@@ -525,11 +531,12 @@ get_header();
         </p>
 
         <div class="ct-cta__actions">
-            <a href="<?php echo esc_url( home_url( '/contato/' ) ); ?>" class="btn-custom-primary btn-lg">
+            <a href="<?php echo esc_url(home_url('/contato/')); ?>" class="btn-custom-primary btn-lg">
                 <i class="bi bi-calendar-check"></i>
                 Agendar demonstração
             </a>
-            <a href="<?php echo esc_url( get_post_type_archive_link( 'solucao' ) ?: home_url( '/solucoes/' ) ); ?>" class="btn-custom-outline btn-lg">
+            <a href="<?php echo esc_url(get_post_type_archive_link('solucao') ?: home_url('/solucoes/')); ?>"
+                class="btn-custom-outline btn-lg">
                 <i class="bi bi-arrow-left"></i>
                 Ver todas as soluções
             </a>
@@ -537,5 +544,37 @@ get_header();
 
     </div>
 </section>
+
+<script>
+    /* ── FAQ toggle específico desta página ── */
+    function ctToggleFaq(btn) {
+        const item = btn.closest('.ct-faq__item');
+        const answer = item.querySelector('.ct-faq__answer');
+        const icon = btn.querySelector('i');
+        const isOpen = item.classList.contains('is-open');
+
+        // Fecha todos
+        document.querySelectorAll('.ct-faq__item.is-open').forEach(el => {
+            el.classList.remove('is-open');
+            el.querySelector('.ct-faq__answer').style.maxHeight = null;
+            el.querySelector('i').className = 'bi bi-plus-lg';
+        });
+
+        if (!isOpen) {
+            item.classList.add('is-open');
+            answer.style.maxHeight = answer.scrollHeight + 'px';
+            icon.className = 'bi bi-dash-lg';
+        }
+    }
+
+    /* ── Smooth scroll ── */
+    document.querySelectorAll('.ct-scroll-link').forEach(a => {
+        a.addEventListener('click', e => {
+            e.preventDefault();
+            const target = document.querySelector(a.getAttribute('href'));
+            if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+    });
+</script>
 
 <?php get_footer(); ?>

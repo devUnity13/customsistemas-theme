@@ -165,9 +165,9 @@ function custom_theme_enqueue_assets()
         wp_enqueue_style('theme-page-protocolo', $uri . '/assets/css/pages/protocolo.css', ['theme-responsive'], $v);
     }
 
-    // CSS do layout dedicado de Portal do Gestor (single-solucao-portal-do-gestor.php)
-    if (is_singular('solucao') && get_post_field('post_name', get_queried_object_id()) === 'portal-do-gestor') {
-        wp_enqueue_style('theme-page-portal-do-gestor', $uri . '/assets/css/pages/portal-do-gestor.css', ['theme-responsive'], $v);
+    // CSS do layout dedicado de Beth (single-solucao-beth.php)
+    if (is_singular('solucao') && get_post_field('post_name', get_queried_object_id()) === 'beth') {
+        wp_enqueue_style('theme-page-beth', $uri . '/assets/css/pages/beth.css', ['theme-responsive'], $v);
     }
 
     // CSS do layout dedicado de Conecta (single-solucao-conecta.php)
@@ -178,6 +178,36 @@ function custom_theme_enqueue_assets()
     // CSS do layout dedicado de Documentos (single-solucao-documentos.php)
     if (is_singular('solucao') && get_post_field('post_name', get_queried_object_id()) === 'documentos') {
         wp_enqueue_style('theme-page-documentos', $uri . '/assets/css/pages/documentos.css', ['theme-responsive'], $v);
+    }
+
+    // CSS do layout dedicado de Saúde (single-solucao-saude.php)
+    if (is_singular('solucao') && get_post_field('post_name', get_queried_object_id()) === 'saude') {
+        wp_enqueue_style('theme-page-saude', $uri . '/assets/css/pages/saude.css', ['theme-responsive'], $v);
+    }
+
+    // CSS do layout dedicado de Social (single-solucao-social.php)
+    if (is_singular('solucao') && get_post_field('post_name', get_queried_object_id()) === 'social') {
+        wp_enqueue_style('theme-page-social', $uri . '/assets/css/pages/social.css', ['theme-responsive'], $v);
+    }
+
+    // CSS do layout dedicado de App Saúde Domiciliar (single-solucao-app-saude-domiciliar.php)
+    if (is_singular('solucao') && get_post_field('post_name', get_queried_object_id()) === 'app-saude-domiciliar') {
+        wp_enqueue_style('theme-page-app-saude-domiciliar', $uri . '/assets/css/pages/app-saude-domiciliar.css', ['theme-responsive'], $v);
+    }
+
+    // CSS do layout dedicado de Planejamento Estratégico (single-solucao-planejamento-estrategico.php)
+    if (is_singular('solucao') && get_post_field('post_name', get_queried_object_id()) === 'planejamento-estrategico') {
+        wp_enqueue_style('theme-page-planejamento-estrategico', $uri . '/assets/css/pages/planejamento-estrategico.css', ['theme-responsive'], $v);
+    }
+
+    // CSS do layout dedicado de BI Administrativo (single-solucao-bi-administrativo.php)
+    if (is_singular('solucao') && get_post_field('post_name', get_queried_object_id()) === 'bi-administrativo') {
+        wp_enqueue_style('theme-page-bi-administrativo', $uri . '/assets/css/pages/bi-administrativo.css', ['theme-responsive'], $v);
+    }
+
+    // CSS do layout dedicado de Portal do Gestor (single-solucao-portal-do-gestor.php)
+    if (is_singular('solucao') && get_post_field('post_name', get_queried_object_id()) === 'portal-do-gestor') {
+        wp_enqueue_style('theme-page-portal-do-gestor', $uri . '/assets/css/pages/portal-do-gestor.css', ['theme-responsive'], $v);
     }
 
     // ── Bootstrap 5 JS ───────────────────────────────────────────────────────

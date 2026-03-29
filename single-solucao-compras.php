@@ -9,7 +9,7 @@
  * O mega menu aponta para get_permalink() do post — zero config extra.
  */
 
-defined( 'ABSPATH' ) || exit;
+defined('ABSPATH') || exit;
 
 get_header();
 ?>
@@ -23,7 +23,7 @@ get_header();
         <div class="ct-hero__content">
 
             <div class="ct-hero__breadcrumb">
-                <a href="<?php echo esc_url( get_post_type_archive_link( 'solucao' ) ?: home_url( '/solucoes/' ) ); ?>">
+                <a href="<?php echo esc_url(get_post_type_archive_link('solucao') ?: home_url('/solucoes/')); ?>">
                     <i class="bi bi-grid-3x3-gap"></i> Soluções
                 </a>
                 <i class="bi bi-chevron-right"></i>
@@ -63,7 +63,7 @@ get_header();
             </div>
 
             <div class="ct-hero__actions">
-                <a href="<?php echo esc_url( home_url( '/contato/' ) ); ?>" class="btn-custom-primary btn-lg">
+                <a href="<?php echo esc_url(home_url('/contato/')); ?>" class="btn-custom-primary btn-lg">
                     <i class="bi bi-calendar-check"></i>
                     Solicitar demonstração
                 </a>
@@ -77,7 +77,8 @@ get_header();
 
         <div class="ct-hero__visual">
             <div class="ct-hero__mockup">
-                <img class="ct-hero__mockup-img" src="<?php echo custom_img('modelo.png'); ?>" alt="Mockup Compras Públicas">
+                <img class="ct-hero__mockup-img" src="<?php echo custom_img('modelo.png'); ?>"
+                    alt="Mockup Compras Públicas">
 
                 <!-- Floating badges -->
                 <div class="ct-mockup-badge ct-mockup-badge--br">
@@ -92,7 +93,7 @@ get_header();
     <!-- Decorative wave -->
     <div class="ct-hero__wave">
         <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-            <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+            <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#ffffff" />
         </svg>
     </div>
 </section>
@@ -132,12 +133,15 @@ get_header();
             <div class="section-label">Sobre o Sistema</div>
             <h2>Gestão completa de compras e licitações públicas</h2>
             <p>
-                O sistema de Compras Públicas Betha oferece uma solução completa para automatizar todo o processo de contratação,
-                desde o planejamento inicial até a execução do contrato. Desenvolvido especificamente para atender às necessidades
+                O sistema de Compras Públicas Betha oferece uma solução completa para automatizar todo o processo de
+                contratação,
+                desde o planejamento inicial até a execução do contrato. Desenvolvido especificamente para atender às
+                necessidades
                 do setor público brasileiro.
             </p>
             <p>
-                Cominterface intuitiva e recursos avançados, sua equipe consegue gerenciar licitações, contratos, atas de registro
+                Cominterface intuitiva e recursos avançados, sua equipe consegue gerenciar licitações, contratos, atas
+                de registro
                 de preços e muito mais, tudo em conformidade com a legislação vigente.
             </p>
 
@@ -413,7 +417,8 @@ get_header();
                 <i class="bi bi-quote"></i>
                 <blockquote>
                     "A implementação do sistema de compras Betha trouxe economia significativa para nosso município.
-                    O processo licitatório ficou muito mais ágil e transparente, garantindo compliance total com a legislação."
+                    O processo licitatório ficou muito mais ágil e transparente, garantindo compliance total com a
+                    legislação."
                 </blockquote>
             </div>
 
@@ -467,7 +472,8 @@ get_header();
                     <i class="bi bi-plus-lg"></i>
                 </button>
                 <div class="ct-faq__answer">
-                    <p>Sim, o sistema foi desenvolvido para atender integralmente a Lei 14.133/2021, incluindo todas as modalidades de licitação, procedimentos auxiliares e formas de contratação.</p>
+                    <p>Sim, o sistema foi desenvolvido para atender integralmente a Lei 14.133/2021, incluindo todas as
+                        modalidades de licitação, procedimentos auxiliares e formas de contratação.</p>
                 </div>
             </div>
 
@@ -477,7 +483,8 @@ get_header();
                     <i class="bi bi-plus-lg"></i>
                 </button>
                 <div class="ct-faq__answer">
-                    <p>Sim, o sistema possui integração com o PNCP, permitindo a publicação automática de editais, atas e contratos conforme exigido pela legislação.</p>
+                    <p>Sim, o sistema possui integração com o PNCP, permitindo a publicação automática de editais, atas
+                        e contratos conforme exigido pela legislação.</p>
                 </div>
             </div>
 
@@ -487,7 +494,8 @@ get_header();
                     <i class="bi bi-plus-lg"></i>
                 </button>
                 <div class="ct-faq__answer">
-                    <p>Sim, o sistema oferece gestão completa de Atas de Registro de Preços, incluindo controle de vigência, participantes, itens e solicitações de adesão.</p>
+                    <p>Sim, o sistema oferece gestão completa de Atas de Registro de Preços, incluindo controle de
+                        vigência, participantes, itens e solicitações de adesão.</p>
                 </div>
             </div>
 
@@ -497,7 +505,8 @@ get_header();
                     <i class="bi bi-plus-lg"></i>
                 </button>
                 <div class="ct-faq__answer">
-                    <p>O módulo permite criar o Plano Anual de Compras, com base em dados históricos e necessidades da entidade, estimando custos e definindo o fluxo de aprovação.</p>
+                    <p>O módulo permite criar o Plano Anual de Compras, com base em dados históricos e necessidades da
+                        entidade, estimando custos e definindo o fluxo de aprovação.</p>
                 </div>
             </div>
 
@@ -520,16 +529,17 @@ get_header();
         <h2>Praticidade e economia para suas compras públicas</h2>
 
         <p>
-            Transforme a forma como sua entidade realiza compras. 
+            Transforme a forma como sua entidade realiza compras.
             Automatize processos, garanta conformidade legal e economize recursos.
         </p>
 
         <div class="ct-cta__actions">
-            <a href="<?php echo esc_url( home_url( '/contato/' ) ); ?>" class="btn-custom-primary btn-lg">
+            <a href="<?php echo esc_url(home_url('/contato/')); ?>" class="btn-custom-primary btn-lg">
                 <i class="bi bi-calendar-check"></i>
                 Agendar demonstração
             </a>
-            <a href="<?php echo esc_url( get_post_type_archive_link( 'solucao' ) ?: home_url( '/solucoes/' ) ); ?>" class="btn-custom-outline btn-lg">
+            <a href="<?php echo esc_url(get_post_type_archive_link('solucao') ?: home_url('/solucoes/')); ?>"
+                class="btn-custom-outline btn-lg">
                 <i class="bi bi-arrow-left"></i>
                 Ver todas as soluções
             </a>
@@ -537,5 +547,37 @@ get_header();
 
     </div>
 </section>
+
+<script>
+    /* ── FAQ toggle específico desta página ── */
+    function ctToggleFaq(btn) {
+        const item = btn.closest('.ct-faq__item');
+        const answer = item.querySelector('.ct-faq__answer');
+        const icon = btn.querySelector('i');
+        const isOpen = item.classList.contains('is-open');
+
+        // Fecha todos
+        document.querySelectorAll('.ct-faq__item.is-open').forEach(el => {
+            el.classList.remove('is-open');
+            el.querySelector('.ct-faq__answer').style.maxHeight = null;
+            el.querySelector('i').className = 'bi bi-plus-lg';
+        });
+
+        if (!isOpen) {
+            item.classList.add('is-open');
+            answer.style.maxHeight = answer.scrollHeight + 'px';
+            icon.className = 'bi bi-dash-lg';
+        }
+    }
+
+    /* ── Smooth scroll ── */
+    document.querySelectorAll('.ct-scroll-link').forEach(a => {
+        a.addEventListener('click', e => {
+            e.preventDefault();
+            const target = document.querySelector(a.getAttribute('href'));
+            if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+    });
+</script>
 
 <?php get_footer(); ?>

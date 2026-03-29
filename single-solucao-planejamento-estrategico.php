@@ -1,8 +1,8 @@
 <?php
 /**
- * single-solucao-portal-do-gestor.php
+ * single-solucao-planejamento-estrategico.php
  *
- * Layout dedicado para o post CPT "solucao" com slug "portal-do-gestor".
+ * Layout dedicado para o post CPT "solucao" com slug "planejamento-estrategico".
  */
 
 defined( 'ABSPATH' ) || exit;
@@ -23,37 +23,37 @@ get_header();
                     <i class="bi bi-grid-3x3-gap"></i> Soluções
                 </a>
                 <i class="bi bi-chevron-right"></i>
-                <span>Portal do Gestor</span>
+                <span>Planejamento Estratégico</span>
             </div>
 
             <div class="ct-hero__badge">
                 <i class="bi bi-patch-check-fill"></i>
-                Gestão Inteligente · Monitoramento Real · Dados
+                Gestão · Planejamento · Tecnologia
             </div>
 
             <h1>
-                Poder de Decisão com o <br>
-                <span class="ct-hero__highlight">Portal do Gestor</span>
+                Gestão transparente com o <br>
+                <span class="ct-hero__highlight">Planejamento</span> Estratégico
             </h1>
 
             <p class="ct-hero__desc">
-                Com tecnologia 100% em nuvem, o Portal do Gestor monitora indicadores que mostram a qualidade da gestão e auxiliam criticamente no cumprimento das obrigações legais. Decida mais rápido e com base irrefutável.
+                Otimize a gestão estratégica do seu município com tecnologia, integração e controle. A solução proporciona uma visão clara dos objetivos, indicadores e resultados, garantindo o alinhamento das ações com as metas públicas.
             </p>
 
             <div class="ct-hero__stats">
                 <div class="ct-hero__stat">
                     <strong>100%</strong>
-                    <span>Visão unificada</span>
+                    <span>alinhamento PPA</span>
                 </div>
                 <div class="ct-hero__stat-divider"></div>
                 <div class="ct-hero__stat">
-                    <strong>Real</strong>
-                    <span>Atualização contínua</span>
+                    <strong>SWOT</strong>
+                    <span>análise central</span>
                 </div>
                 <div class="ct-hero__stat-divider"></div>
                 <div class="ct-hero__stat">
-                    <strong>Cloud</strong>
-                    <span>Mobilidade total</span>
+                    <strong>Apoio</strong>
+                    <span>decisões ágeis</span>
                 </div>
             </div>
 
@@ -64,7 +64,7 @@ get_header();
                 </a>
                 <a href="#modulos" class="btn-custom-outline btn-lg ct-scroll-link">
                     <i class="bi bi-grid-1x2"></i>
-                    Ver painéis
+                    Ver recursos
                 </a>
             </div>
 
@@ -72,12 +72,12 @@ get_header();
 
         <div class="ct-hero__visual">
             <div class="ct-hero__mockup">
-                <img class="ct-hero__mockup-img" src="<?php echo function_exists('custom_img') ? custom_img('modelo.png') : esc_url(get_template_directory_uri()) . '/assets/img/mockup-portal-gestor.png'; ?>" alt="Mockup Portal do Gestor" onerror="this.src='https://placehold.co/600x400/a39382/ffffff?text=Interface+Portal+do+Gestor'">
+                <img class="ct-hero__mockup-img" src="<?php echo function_exists('custom_img') ? custom_img('modelo.png') : esc_url(get_template_directory_uri()) . '/assets/img/mockup-planejamento.png'; ?>" alt="Mockup Planejamento Estratégico" onerror="this.src='https://placehold.co/600x400/a39382/ffffff?text=Interface+Planejamento'">
                 
                 <!-- Floating badges -->
                 <div class="ct-mockup-badge ct-mockup-badge--br">
                     <i class="bi bi-check-circle-fill"></i>
-                    Power Numbers Integrados
+                    Mapa Estratégico
                 </div>
             </div>
         </div><!-- /.ct-hero__visual -->
@@ -125,42 +125,42 @@ get_header();
 
         <div class="ct-about__text">
             <div class="section-label">Sobre o Sistema</div>
-            <h2>O Raio-X definitivo da Prefeitura na palma da mão</h2>
+            <h2>Metas e Obras alinhadas às expectativas sociais</h2>
             <p>
-                O Portal do Gestor é uma ferramenta avançada de Business Intelligence desenvolvida sob medida para a liderança executiva do paço. Centralizando dados pulverizados através de secretarias e departamentos numa camada visual coesa e direta.
+                A solução de Planejamento Estratégico oferece um conjunto robusto de ferramentas baseadas nas melhores práticas da gestão pública, cobrindo todas as etapas do ciclo de gestão estratégica municipal de ponta a ponta.
             </p>
             <p>
-                As informações transitam para a tela do Prefeito ou Secretário com precisão garantindo total transparência e uma eficiência singular na leitura do orçamento, das falhas de suprimentos e dos tetos inflados de gastos nas execuções.
+                Com foco em resultados e governança, permite que a prefeitura contemple uma visão integrada de suas metas e indicadores (KPIs), facilitando o acompanhamento de projetos e iniciativas através de ferramentas analíticas modernas.
             </p>
 
             <ul class="ct-about__checks">
-                <li><i class="bi bi-check-circle-fill"></i> Visão esférica cruzando Saúde, Cadastro e Finanças</li>
-                <li><i class="bi bi-check-circle-fill"></i> Alertas instantâneos demonstrando estouramento de LRF</li>
-                <li><i class="bi bi-check-circle-fill"></i> Protege e garante a assertividade perante sanções dos Órgãos Fiscais</li>
-                <li><i class="bi bi-check-circle-fill"></i> Acesso inteiramente Cloud com visualização garantida via Tablets ou Celulares</li>
+                <li><i class="bi bi-check-circle-fill"></i> Mapa Estratégico visual para as metas prioritárias nativas</li>
+                <li><i class="bi bi-check-circle-fill"></i> Conectividade e integração à contabilidade de custos gerencial</li>
+                <li><i class="bi bi-check-circle-fill"></i> Painéis modernos de análise SWOT e métodos 5W2H embarcados</li>
+                <li><i class="bi bi-check-circle-fill"></i> Gestão contínua de projetos avaliando pendências e andamento financeiro</li>
             </ul>
         </div>
 
         <div class="ct-about__cards">
             <div class="ct-about__card ct-about__card--blue">
-                <i class="bi bi-speedometer2"></i>
-                <h4>Indicadores Puros</h4>
-                <p>Mensure o que importa através de métricas moldadas no vocabulário executivo prático.</p>
+                <i class="bi bi-graph-up"></i>
+                <h4>Monitoramento Real</h4>
+                <p>Mensure o avanço e entregas da secretaria visualizando claramente onde o orçamento reage.</p>
             </div>
             <div class="ct-about__card ct-about__card--primary">
-                <i class="bi bi-person-lines-fill"></i>
-                <h4>Gastos com Pessoal</h4>
-                <p>Contingencie rapidamente a escalada com a Folha de pagamentos (LRF) num relance claro e firme.</p>
+                <i class="bi bi-diagram-3-fill"></i>
+                <h4>Matriz de Riscos</h4>
+                <p>Identificação precoce impedindo desastres executivos nas grandes diretrizes prioritárias.</p>
             </div>
             <div class="ct-about__card ct-about__card--primary">
-                <i class="bi bi-bank2"></i>
-                <h4>Orçamento Unificado</h4>
-                <p>Reduza desperdícios cortando repasses onde o gráfico expõe claramente a ineficiência.</p>
+                <i class="bi bi-check2-all"></i>
+                <h4>Vinculação PPA</h4>
+                <p>Garante alinhamento irrestrito do Planejamento Prático focado ao escopo exigido de 4 anos Plurianual.</p>
             </div>
             <div class="ct-about__card ct-about__card--orange">
-                <i class="bi bi-file-earmark-medical"></i>
-                <h4>Saúde e Educação</h4>
-                <p>Acompanhe verbas exclusivas injetadas conferindo o cumprimento da cota estrita constitucional exigida.</p>
+                <i class="bi bi-file-earmark-check"></i>
+                <h4>Probatórios</h4>
+                <p>Anexe licenças ou imagens comprovando com forte respaldo a materialidade das obras executadas.</p>
             </div>
         </div>
 
@@ -175,65 +175,68 @@ get_header();
     <div class="ct-modulos__inner">
 
         <div class="ct-modulos__header">
-            <div class="section-label">Recursos Destacados</div>
-            <h2>Monitoramento e ferramentas diretas para o Gestor</h2>
-            <p>Explore as visões e engrenagens projetadas primariamente para embasar o mais alto executivo.</p>
+            <div class="section-label">Módulos do Sistema</div>
+            <h2>Organize o desenvolvimento passo a passo</h2>
+            <p>Confira as funcionalidades encarregadas de traduzir planejamento retórico em controle tangível na caneta do Prefeito.</p>
         </div>
 
         <div class="ct-modulos__grid">
 
             <div class="ct-modulo-card">
                 <div class="ct-modulo-card__icon" style="--mc: 30, 49%, 40%">
-                    <i class="bi bi-pip" style="color:#fff;"></i>
+                    <i class="bi bi-map-fill" style="color:#fff;"></i>
                 </div>
-                <h3>Painéis Setoriais Interativos</h3>
-                <p>Visão de alto nível segmentada garantindo exato isolamento da raiz dos problemas, detalhando cada secretaria departamental de maneira isolada sem poluir a avaliação e sem misturar responsabilidades nominais.</p>
+                <h3>Mapa Estratégico</h3>
+                <p>Plante suas visões através de ferramentas de desenho visual simplificadas traçando onde cada secretaria entra no macro plano anual validado.</p>
+                <ul>
+                    <li>Perspectivas fáceis e ilustradas na base</li>
+                    <li>Reforço na cultura dos resultados governamentais</li>
+                </ul>
             </div>
 
             <div class="ct-modulo-card">
                 <div class="ct-modulo-card__icon" style="--mc: 30, 60%, 45%">
-                    <i class="bi bi-projector-fill" style="color:#fff;"></i>
+                    <i class="bi bi-kanban-fill" style="color:#fff;"></i>
                 </div>
-                <h3>Modo de Apresentação</h3>
-                <p>Formatação ideal simplificada transformando os duros indicadores contábeis numa roupagem palatável estrita concebida no ato embutida propiciando clareza extrema para reuniões de conselhos diretos e consórcios ou audiência geral prestando contas evidentes irrefutáveis e dinâmicas perante a sociedade participativa estipulada e a crítica popular.</p>
+                <h3>Gestão de Projetos e KPIs</h3>
+                <p>Fisgue metas isoladas alocando orçamentos reais, estipulando fases da planta, rastreando desvios na gestão em andamentos engenhados.</p>
                 <ul>
-                    <li>Reuniões gabinetadas com suporte analítico</li>
+                    <li>Definição contundente de Escopos tangíveis</li>
+                    <li>Gerenciamento transparente de gargalos das obras federais</li>
+                    <li>Controle de cronogramas integrados</li>
                 </ul>
             </div>
 
             <div class="ct-modulo-card">
                 <div class="ct-modulo-card__icon" style="--mc: 30, 49%, 40%">
-                    <i class="bi bi-clock-history" style="color:#fff;"></i>
+                    <i class="bi bi-ui-checks" style="color:#fff;"></i>
                 </div>
-                <h3>Monitoramento Pulsante em Tempo Real</h3>
-                <p>Os números sobem à nuvem contínua propiciando ao gestor acessar balanços exatos na data autêntica visualizados sem depender estritamente de fechamentos e empacotamento da tesouraria no vigésimo dia imposto aguardando papéis passados mofados enlatados defasados demorados.</p>
+                <h3>Análises SWOT e 5W2H</h3>
+                <p>Disponibiliza aos diretores engrenagens consagradas em ambientes ágeis definindo planos de ação estipulados e aderentes.</p>
             </div>
 
             <div class="ct-modulo-card">
                 <div class="ct-modulo-card__icon" style="--mc: 30, 60%, 45%">
-                    <i class="bi bi-123" style="color:#fff;"></i>
+                    <i class="bi bi-bank2" style="color:#fff;"></i>
                 </div>
-                <h3>Power Numbers</h4>
-                <p>Traz o "Bottom Line", dados compactados que respondem dúvidas de milhões num simples grande número verde ou vermelho consolidado, economizando a vista de quem já precisa dar despachos exigentes imediatos iminentes.</p>
-                <ul>
-                    <li>Rápida avaliação visual para Decisão Executiva</li>
-                </ul>
+                <h3>Interligação API Geral Contábil</h3>
+                <p>Puxa fidedignos empenhos reais extraídos na tesouraria integrando estritamente custos consumidos em projetos elaborados na ponta visível sem repetições cadastrais desgastantes operacionais.</p>
             </div>
 
             <div class="ct-modulo-card">
                 <div class="ct-modulo-card__icon" style="--mc: 30, 49%, 40%">
-                    <i class="bi bi-cart-check-fill" style="color:#fff;"></i>
+                    <i class="bi bi-bar-chart-fill" style="color:#fff;"></i>
                 </div>
-                <h3>Inteligência de Suprimentos</h4>
-                <p>Olho vivo em processos caros licitatórios apontando repetições cruzando fornecedores vencedores habituais avalizando lisura atesta da procuradoria evitando escândalos rastreados facilmente mapeados prefeitos blindados.</p>
+                <h3>Dashboards e Exibições</h3>
+                <p>Monitores coloridos ressaltando faturamentos mensurando KPIs engenhados na visualização consolidada limpa e interativa simplificando análises densas e volumosas.</p>
             </div>
 
             <div class="ct-modulo-card">
                 <div class="ct-modulo-card__icon" style="--mc: 30, 60%, 45%">
-                    <i class="bi bi-people-fill" style="color:#fff;"></i>
+                    <i class="bi bi-shield-exclamation" style="color:#fff;"></i>
                 </div>
-                <h3>Conhecimento Efetivo do Cidadão</h3>
-                <p>Filtros que espelham perfeitamente o censo demográfico interno mapeando faixas onde os postos sociais mais exigem garantindo que as construções da pasta visem alvos precisos demográficos alicerçados amparáveis focados apuradamente cravados validados sem invenções desgastantes alocadas politicamente sem base aparente em lugares desérticos inúteis esvaziados dispendiosos errantes exaustivos.</p>
+                <h3>Monitoração Plena e Riscos</h3>
+                <p>Enquadre ameaças estrututais calculando impactos de quebra alertando sobre gargalos legais e contratempos burocráticos evitando atrasos estressantes públicos severos e danosos.</p>
             </div>
 
         </div>
@@ -250,28 +253,18 @@ get_header();
 
         <div class="ct-beneficios__header">
             <div class="section-label">Benefícios</div>
-            <h2>Os pilares da gestão irrefutável</h2>
+            <h2>Excelência gerencial enraizada</h2>
         </div>
 
         <div class="ct-beneficios__grid">
 
             <div class="ct-beneficio">
                 <div class="ct-beneficio__icon ct-beneficio__icon--blue">
-                    <i class="bi bi-check-all"></i>
+                    <i class="bi bi-eye"></i>
                 </div>
                 <div>
-                    <h4>Cumprimento rigoroso Legal</h4>
-                    <p>Ao visualizar o balanço da Saúde, Educação e Folha, a gestão afasta com imensa força autuações prováveis dos Órgãos amparando as defesas fiscais e mantendo tetos firmes e orçamentos sagrados longe de furos não intencionais não observados puníveis irresponsáveis e prejudiciais e infelizmente crônicos rotineiros contumazes não enxergados e arrastados em papelarias extintas.</p>
-                </div>
-            </div>
-
-            <div class="ct-beneficio">
-                <div class="ct-beneficio__icon ct-beneficio__icon--primary">
-                    <i class="bi bi-briefcase-fill"></i>
-                </div>
-                <div>
-                    <h4>Prestação de Contas Incontestável</h4>
-                    <p>Para Câmaras e populações, a visualização clara em Power Numbers limpa a sujeira do emaranhado contábil demonstrando inegavelmente pra onde todo imposto fluiu com integridade embasado sólido valioso fidedigno limpo e esteticamente incontestável visualmente polido direto.</p>
+                    <h4>Visão Limpa dos Objetivos</h4>
+                    <p>Facilita o alinhamento das ações, removendo as teias burocráticas estipuladas ao permitir intuição na hora de entender prioridades em jogo.</p>
                 </div>
             </div>
 
@@ -280,18 +273,28 @@ get_header();
                     <i class="bi bi-laptop"></i>
                 </div>
                 <div>
-                    <h4>Respostas Imediatas</h4>
-                    <p>Qualquer secretário cobrado sabe abrir um portal consolidado, focar a secretaria requisitada pela mesa diretora em fração reativa e expor respostas sólidas provadas nativas imediatas na reunião não precisando interromper pedir prazos e arrastar planilhas demorosas desvencilhadas arrastáveis desatualizadas preenchidas amadoras preenchidas exaustivamente manualmente falhas desgastantes desanimadoras.</p>
+                    <h4>Direcionamento Dinâmico</h4>
+                    <p>Painéis flexíveis que reagem antecipadamente, estancando excessos ou perdas do cronograma que atrasam entregatórios aguardados pela sociedade civil local.</p>
+                </div>
+            </div>
+
+            <div class="ct-beneficio">
+                <div class="ct-beneficio__icon ct-beneficio__icon--primary">
+                    <i class="bi bi-people-fill"></i>
+                </div>
+                <div>
+                    <h4>Integração do Secretariado</h4>
+                    <p>Conduz todo o núcleo político num consenso visível forçando integração colaborativa amarrada no projeto principal do gabinete geral.</p>
                 </div>
             </div>
 
             <div class="ct-beneficio">
                 <div class="ct-beneficio__icon ct-beneficio__icon--orange">
-                    <i class="bi bi-palette-fill"></i>
+                    <i class="bi bi-arrow-repeat"></i>
                 </div>
                 <div>
-                    <h4>Personalização Estratégica</h4>
-                    <p>A moldagem admite desenhar visões específicas e únicas adaptadas para secretarias particulares ou criar um foco principal daquela gestão pontual permitindo acompanhamento vital daquilo que foi focado prometido e desenhado inicialmente pela governança apurável focada.</p>
+                    <h4>Rotina Sustentável Central</h4>
+                    <p>Elimina retrabalhos puxando recursos de outras soluções desaguando nas aprovações de projetos otimizando trâmites engessados por planilhas.</p>
                 </div>
             </div>
 
@@ -309,51 +312,51 @@ get_header();
 
         <div class="ct-integracoes__text">
             <div class="section-label">Integrações</div>
-            <h2>O Ponto alto da convergência de dados</h2>
+            <h2>A central do controle total municipal</h2>
             <p>
-                O Portal drena ininterruptamente as águas informacionais vitais destilando o que é central. Tudo o que é transacionado abaixo sobe ao Portal de maneira limpa filtrada e categorizada estrita.
+                Conectividade garantida e amarrada puxando valores de cada base prefeitoral para desenhar visualmente a aplicação correta em projetos na linha orçamentária.
             </p>
         </div>
 
         <div class="ct-integracoes__map">
             <!-- Central hub -->
             <div class="ct-integ-hub">
-                <i class="bi bi-bar-chart-steps"></i>
-                <span>PORTAL G.</span>
+                <i class="bi bi-signpost-split-fill"></i>
+                <span>ESTRATÉGIA</span>
             </div>
 
             <!-- Satellite nodes -->
-            <div class="ct-integ-node ct-integ-node--t" title="Educacao">
-                <i class="bi bi-mortarboard-fill"></i>
-                <span>Educação</span>
+            <div class="ct-integ-node ct-integ-node--t" title="Gestor P.">
+                <i class="bi bi-bar-chart-line-fill"></i>
+                <span>Portal Gestor</span>
             </div>
             <div class="ct-integ-node ct-integ-node--tl" title="Contábil">
-                <i class="bi bi-calculator-fill"></i>
-                <span>Contábil</span>
+                <i class="bi bi-journal-text"></i>
+                <span>Contabilidade</span>
             </div>
-            <div class="ct-integ-node ct-integ-node--l" title="RH">
-                <i class="bi bi-people-fill"></i>
-                <span>Gestão RH</span>
+            <div class="ct-integ-node ct-integ-node--l" title="PPA">
+                <i class="bi bi-archive-fill"></i>
+                <span>Plano Plur.</span>
             </div>
-            <div class="ct-integ-node ct-integ-node--bl" title="Saúde">
-                <i class="bi bi-heart-pulse-fill"></i>
-                <span>Saúde</span>
-            </div>
-            <div class="ct-integ-node ct-integ-node--b" title="Compras">
+            <div class="ct-integ-node ct-integ-node--bl" title="Compras">
                 <i class="bi bi-cart"></i>
                 <span>Compras</span>
             </div>
-            <div class="ct-integ-node ct-integ-node--br" title="Cidadão">
-                <i class="bi bi-file-person"></i>
-                <span>CadCidadão</span>
+            <div class="ct-integ-node ct-integ-node--b" title="Transp.">
+                <i class="bi bi-search"></i>
+                <span>Transparência</span>
             </div>
-            <div class="ct-integ-node ct-integ-node--r" title="Estrutura">
-                <i class="bi bi-building"></i>
-                <span>Estrutura</span>
+            <div class="ct-integ-node ct-integ-node--br" title="Jurídico">
+                <i class="bi bi-bank"></i>
+                <span>Jurídico</span>
+            </div>
+            <div class="ct-integ-node ct-integ-node--r" title="RH">
+                <i class="bi bi-people-fill"></i>
+                <span>Recursos H.</span>
             </div>
             <div class="ct-integ-node ct-integ-node--tr" title="Arrecadação">
-                <i class="bi bi-currency-dollar"></i>
-                <span>Receitas</span>
+                <i class="bi bi-cash-coin"></i>
+                <span>Tributos</span>
             </div>
         </div>
 
@@ -371,7 +374,7 @@ get_header();
             <div class="ct-case__quote">
                 <i class="bi bi-quote"></i>
                 <blockquote>
-                    "Quando levamos o Portal do Gestor ao Prefeito, foi o divisor de águas da nossa gestão. Ele finalmente largou os emaranhados arrastados que cobrava da tesouraria semanalmente e abriu na tela do iPad dele o controle instantâneo estritamente focado em Power Numbers da Educação, e conseguiu segurar uma onda enorme de gastos apontando rubricas inflamadas e controlou folha de salários impedindo bloqueios, além de mostrar de pronto no modo apresentação à Câmara em minutos."
+                    "O salto em organização foi espantoso. Antes o plano e os projetos repousavam apagados numa planilha engessada perdida sem fim na chefia controlada por e-mails demorados. Agora a central de Planejamento desenhou o mapa geral, engata no empenho e avisa visualmente o progresso do orçamento real, alinhado ao Plano PPA integradamente resolvendo dúvidas de desvios velozmente na raiz dos problemas das pastas responsáveis isoladas sem confusões arrastadas nas secretarias gerais prefeiturais interligadas firmes consolidadamente prontas nas metas atingidas estipuladas rigorosamente em tela cheia centralizadora e clara para todos engajados no comitê diário matinal."
                 </blockquote>
             </div>
 
@@ -380,20 +383,20 @@ get_header();
                     <i class="bi bi-person-badge"></i>
                 </div>
                 <div>
-                    <strong>Sérgio Guimarães</strong>
-                    <span>Secretário Chefe de Gabinete</span>
+                    <strong>Célio Martins</strong>
+                    <span>Secretário de Planejamento Urbano e Metas</span>
                 </div>
             </div>
 
             <div class="ct-case__results">
-                <h4>Resultados comprovados alcançados:</h4>
+                <h4>Impacto efetivo:</h4>
                 <div class="ct-case__result-item">
                     <i class="bi bi-check-circle-fill"></i>
-                    <span>Término de reuniões com relatórios defasados imprecisos em mesas engarrafadas e desgastadas</span>
+                    <span>Término de projetos travados por falhas comunicativas esquecidas</span>
                 </div>
                 <div class="ct-case__result-item">
                     <i class="bi bi-check-circle-fill"></i>
-                    <span>Prestação na Câmera ágil consolidada cristalina sem espaços visíveis ou vácuos para interpelações não comprovadas vazias</span>
+                    <span>Sincronicidade contábil nativa demonstrando os consumos do ciclo orçamentário</span>
                 </div>
             </div>
         </div>
@@ -410,28 +413,28 @@ get_header();
 
         <div class="ct-faq__header">
             <div class="section-label">Perguntas frequentes</div>
-            <h2>Tire suas dúvidas</h2>
+            <h2>Principais dúvidas do sistema</h2>
         </div>
 
         <div class="ct-faq__list">
 
             <div class="ct-faq__item">
                 <button class="ct-faq__question" onclick="ctToggleFaq(this)">
-                    Preciso operar configurações difíceis para consolidar essas ramificações no ambiente do prefeito ou o portal engole a configuração unindo os laços nativamente com os braços de software rodando abaixo e demonstrando visões consolidadas automaticamente amparadas?
+                    Como funciona a ligação direta e intrínseca entre os novos projetos idealizados pela equipe técnica e estruturadora governamental na ponta analítica engajada com os crivos e verbas contidos exigidos anuais pelo Plano Plurianual (PPA) rigorosamente contábil validado imposto?
                     <i class="bi bi-plus-lg"></i>
                 </button>
                 <div class="ct-faq__answer">
-                    <p>O Portal já nasce imiscuído perfeitamente aderido às engrenagens contábeis, de receitas e do departamento médico hospitalar contidos no banco de dados. Os "Power Numbers" e gráficos vitais da LRF não demandam integrações ou robôs de leitura ou programação avançada exigida nos gabinetes estressantes; no clique do login de manhã a esteira de informações cruza e consolida no Dashboard tudo que fora faturado pago e despachado na prefeitura inteiramente no dia validado anterior atestado comprovadamente sem redigitar exaustivamente estressores arcaicos impeditivos arrastáveis engavetados atrasados cansativos e extenuantes sem razão justificada tolerada exigida.</p>
+                    <p>A ferramenta opera com laço intrínseco contábil, ou seja, para iniciar um projeto, os envolvidos podem e devem amarrá-lo diretamente e rigorosamente à sua rubrica no PPA, assegurando destinação fiscal sem deslizes administrativos e apontando coerência e responsabilidade com gastos programados da entidade governamental mantenedora estipulada evitando inconformidades e desencontros contábeis custosos pesados e danosos burocráticos arrastados nas pastas gerenciais e contábeis interligadas sempre em conformidade nativa e validada estritamente contida nas despesas.</p>
                 </div>
             </div>
 
             <div class="ct-faq__item">
                 <button class="ct-faq__question" onclick="ctToggleFaq(this)">
-                    A apresentação na Câmara e para jornalistas usa os mesmos dados que rodam no painel e posso projetá-lo sem criar power points repetidos manuais preenchidos suscetíveis longos demorados e estressantes errôneos isolados das verdades fiscais nativas?
+                    Essas metodologias como Análise SWOT, 5W2H e Matrizes limitam-se ao simples preenchimento de papéis estáticos anexáveis estagnados visualmente enlatados preenchidos mortos sem interações no corpo dos relatórios preenchidos ou integram efetivamente painéis monitoráveis dinamicamente demonstrando riscos evoluídos diários nas avaliações?
                     <i class="bi bi-plus-lg"></i>
                 </button>
                 <div class="ct-faq__answer">
-                    <p>Com toda certeza. O modo de apresentação foi talhado justamente visando esse rigor transparente perante o conselho imposto prestando a demonstração e amparando a sociedade atestando fidelidade. A imagem projetada bebe as fontes puras irrevogáveis da arrecadação extirpando manipulações, fornecendo clareza amparável garantindo uma governança aplaudida irretocável comprovável firme forte avaliada e incontestável nos palanques prefeiturais e televisões conselheiras legislativas nas sessões contundentes exigentes pautadas balizadas enraizadas rigorosamente.</p>
+                    <p>Eles integram completamente a vida do acompanhamento operacional! Após registrar preenchimentos do método, os painéis e radares de projetos engolem e monitoram indicativos contidos em telas vivas vibrantes gerando flags gerenciais sinalizantes se uma ameaça preenchida se materializar e abocanhar orçamentos reais, cobrando os responsáveis estipulados nominalmente exigidos ativos apurados integradamente nas engrenagens operacionais consolidados e visados nas abas interativas dos monitores executivos das direções atentas ativas no percurso.</p>
                 </div>
             </div>
 
@@ -448,13 +451,13 @@ get_header();
     <div class="ct-cta__inner">
 
         <div class="ct-cta__icon">
-            <i class="bi bi-cpu-fill"></i>
+            <i class="bi bi-flag-fill"></i>
         </div>
 
-        <h2>Assuma o controle definitivo da sua organização e da Prefeitura</h2>
+        <h2>Traga o controle e as rédeas dos projetos municipais</h2>
 
         <p>
-            Capacite o poder analítico central visualizando o que trava orçamentos e impeça sanções usando gráficos consolidados limpos na plataforma principal onde o gabinete monitora e decide a direção veloz impecável atestada sem refazer planilhas extenuantes morosas arcaicas perdidas isoladas.
+            Capacite líderes engajando suas secretarias provendo direcionamento impecável consolidado em painéis unificados analíticos mapeando caminhos eficientes validados garantidos no sucesso da pasta municipal.
         </p>
 
         <div class="ct-cta__actions">

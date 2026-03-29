@@ -9,7 +9,7 @@
  * O mega menu aponta para get_permalink() do post — zero config extra.
  */
 
-defined( 'ABSPATH' ) || exit;
+defined('ABSPATH') || exit;
 
 get_header();
 ?>
@@ -23,7 +23,7 @@ get_header();
         <div class="ct-hero__content">
 
             <div class="ct-hero__breadcrumb">
-                <a href="<?php echo esc_url( get_post_type_archive_link( 'solucao' ) ?: home_url( '/solucoes/' ) ); ?>">
+                <a href="<?php echo esc_url(get_post_type_archive_link('solucao') ?: home_url('/solucoes/')); ?>">
                     <i class="bi bi-grid-3x3-gap"></i> Soluções
                 </a>
                 <i class="bi bi-chevron-right"></i>
@@ -63,7 +63,7 @@ get_header();
             </div>
 
             <div class="ct-hero__actions">
-                <a href="<?php echo esc_url( home_url( '/contato/' ) ); ?>" class="btn-custom-primary btn-lg">
+                <a href="<?php echo esc_url(home_url('/contato/')); ?>" class="btn-custom-primary btn-lg">
                     <i class="bi bi-calendar-check"></i>
                     Solicitar demonstração
                 </a>
@@ -77,7 +77,8 @@ get_header();
 
         <div class="ct-hero__visual">
             <div class="ct-hero__mockup">
-                <img class="ct-hero__mockup-img" src="<?php echo custom_img('modelo.png'); ?>" alt="Mockup Almoxarifado">
+                <img class="ct-hero__mockup-img" src="<?php echo custom_img('modelo.png'); ?>"
+                    alt="Mockup Almoxarifado">
 
                 <!-- Floating badges -->
                 <div class="ct-mockup-badge ct-mockup-badge--br">
@@ -92,7 +93,7 @@ get_header();
     <!-- Decorative wave -->
     <div class="ct-hero__wave">
         <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-            <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+            <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#ffffff" />
         </svg>
     </div>
 </section>
@@ -132,11 +133,14 @@ get_header();
             <div class="section-label">Sobre o Sistema</div>
             <h2>Controle completo de almoxarifado público</h2>
             <p>
-                O sistema de Almoxarifado Betha oferece uma solução completa para gerenciar o estoque da sua entidade pública.
-                Desde o cadastro de materiais até a distribuição para os departamentos, tudo é controlado de forma automatizada.
+                O sistema de Almoxarifado Betha oferece uma solução completa para gerenciar o estoque da sua entidade
+                pública.
+                Desde o cadastro de materiais até a distribuição para os departamentos, tudo é controlado de forma
+                automatizada.
             </p>
             <p>
-                Com interface intuitiva e recursos avançados, sua equipe consegue gerenciar estoques múltiplos, controle de validade,
+                Com interface intuitiva e recursos avançados, sua equipe consegue gerenciar estoques múltiplos, controle
+                de validade,
                 solicitação de materiais e muito mais, garantindo transparência e eficiência na gestão.
             </p>
 
@@ -466,7 +470,8 @@ get_header();
                     <i class="bi bi-plus-lg"></i>
                 </button>
                 <div class="ct-faq__answer">
-                    <p>Sim, o sistema permite definir estoque mínimo e máximo para cada material, com alertas automáticos quando o nível mínimo é atingido.</p>
+                    <p>Sim, o sistema permite definir estoque mínimo e máximo para cada material, com alertas
+                        automáticos quando o nível mínimo é atingido.</p>
                 </div>
             </div>
 
@@ -476,7 +481,8 @@ get_header();
                     <i class="bi bi-plus-lg"></i>
                 </button>
                 <div class="ct-faq__answer">
-                    <p>Sim, o sistema possui controle de validade com alertas automáticos para materiais próximos ao vencimento, garantindo que sejam utilizados antes do prazo.</p>
+                    <p>Sim, o sistema possui controle de validade com alertas automáticos para materiais próximos ao
+                        vencimento, garantindo que sejam utilizados antes do prazo.</p>
                 </div>
             </div>
 
@@ -486,7 +492,8 @@ get_header();
                     <i class="bi bi-plus-lg"></i>
                 </button>
                 <div class="ct-faq__answer">
-                    <p>Sim, o sistema permite que os departamentos façam requisições de materiais online, com fluxo de aprovação e histórico completo de solicitações.</p>
+                    <p>Sim, o sistema permite que os departamentos façam requisições de materiais online, com fluxo de
+                        aprovação e histórico completo de solicitações.</p>
                 </div>
             </div>
 
@@ -496,7 +503,8 @@ get_header();
                     <i class="bi bi-plus-lg"></i>
                 </button>
                 <div class="ct-faq__answer">
-                    <p>Sim, o sistema de almoxarifado se integra diretamente com o módulo de compras, permitindo geração automática de solicitações de compra quando o estoque atinge o nível mínimo.</p>
+                    <p>Sim, o sistema de almoxarifado se integra diretamente com o módulo de compras, permitindo geração
+                        automática de solicitações de compra quando o estoque atinge o nível mínimo.</p>
                 </div>
             </div>
 
@@ -524,11 +532,12 @@ get_header();
         </p>
 
         <div class="ct-cta__actions">
-            <a href="<?php echo esc_url( home_url( '/contato/' ) ); ?>" class="btn-custom-primary btn-lg">
+            <a href="<?php echo esc_url(home_url('/contato/')); ?>" class="btn-custom-primary btn-lg">
                 <i class="bi bi-calendar-check"></i>
                 Agendar demonstração
             </a>
-            <a href="<?php echo esc_url( get_post_type_archive_link( 'solucao' ) ?: home_url( '/solucoes/' ) ); ?>" class="btn-custom-outline btn-lg">
+            <a href="<?php echo esc_url(get_post_type_archive_link('solucao') ?: home_url('/solucoes/')); ?>"
+                class="btn-custom-outline btn-lg">
                 <i class="bi bi-arrow-left"></i>
                 Ver todas as soluções
             </a>
@@ -536,5 +545,37 @@ get_header();
 
     </div>
 </section>
+
+<script>
+    /* ── FAQ toggle específico desta página ── */
+    function ctToggleFaq(btn) {
+        const item = btn.closest('.ct-faq__item');
+        const answer = item.querySelector('.ct-faq__answer');
+        const icon = btn.querySelector('i');
+        const isOpen = item.classList.contains('is-open');
+
+        // Fecha todos
+        document.querySelectorAll('.ct-faq__item.is-open').forEach(el => {
+            el.classList.remove('is-open');
+            el.querySelector('.ct-faq__answer').style.maxHeight = null;
+            el.querySelector('i').className = 'bi bi-plus-lg';
+        });
+
+        if (!isOpen) {
+            item.classList.add('is-open');
+            answer.style.maxHeight = answer.scrollHeight + 'px';
+            icon.className = 'bi bi-dash-lg';
+        }
+    }
+
+    /* ── Smooth scroll ── */
+    document.querySelectorAll('.ct-scroll-link').forEach(a => {
+        a.addEventListener('click', e => {
+            e.preventDefault();
+            const target = document.querySelector(a.getAttribute('href'));
+            if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+    });
+</script>
 
 <?php get_footer(); ?>
