@@ -1,0 +1,108 @@
+/* ════════════════════════════════════════════════════
+   solucao-archive.css — Filtros e Busca do Portfólio
+   ════════════════════════════════════════════════════ */
+
+.solucao-filters {
+    background: #fff;
+    padding: 30px 0;
+    border-bottom: 1px solid #e2e8f0;
+    margin-bottom: 40px;
+    position: sticky;
+    top: 80px; /* Ajustar conforme a altura da sua navbar */
+    z-index: 10;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+}
+
+.solucao-filters-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Busca */
+.solucao-search {
+    position: relative;
+    flex: 1;
+    max-width: 400px;
+}
+
+.solucao-search i {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #94a3b8;
+    font-size: 1.1rem;
+}
+
+.solucao-search input {
+    width: 100%;
+    padding: 12px 16px 12px 48px;
+    border: 1px solid #e2e8f0;
+    border-radius: 99px;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+    background: #f8fafc;
+}
+
+.solucao-search input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    background: #fff;
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
+}
+
+/* Select de Filtro */
+.solucao-filter-wrapper {
+    position: relative;
+    min-width: 220px;
+}
+
+.solucao-filter-select {
+    width: 100%;
+    padding: 12px 40px 12px 20px;
+    border: 1px solid #e2e8f0;
+    border-radius: 99px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #475569;
+    background: #f8fafc url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%2364748b' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E") no-repeat right 16px center;
+    appearance: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.solucao-filter-select:focus {
+    outline: none;
+    border-color: #3b82f6;
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
+}
+
+.solucao-filter-select:hover {
+    border-color: #cbd5e1;
+}
+
+/* Ajustes no Archive */
+.solucao-archive-body {
+    background: #fcfcfc;
+}
+
+@media (max-width: 991px) {
+    .solucao-filters-inner {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 20px;
+    }
+    .solucao-search {
+        max-width: none;
+    }
+    .solucao-filters {
+        position: relative;
+        top: 0;
+    }
+}

@@ -210,6 +210,11 @@ function custom_theme_enqueue_assets()
         wp_enqueue_style('theme-page-portal-do-gestor', $uri . '/assets/css/pages/portal-do-gestor.css', ['theme-responsive'], $v);
     }
 
+    // CSS do Archive de Soluções (archive-solucao.php)
+    if (is_post_type_archive('solucao')) {
+        wp_enqueue_style('theme-solucao-archive', $uri . '/assets/css/pages/solucao-archive.css', ['theme-responsive'], $v);
+    }
+
     // ── Bootstrap 5 JS ───────────────────────────────────────────────────────
     wp_enqueue_script(
         'bootstrap-5',
