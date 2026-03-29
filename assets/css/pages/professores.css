@@ -481,7 +481,7 @@
 }
 
 .ct-modulo-card ul li::before {
-    content: 'â€º';
+    content: '›';
     position: absolute;
     left: 0;
     color: hsl(var(--mc), 50%);
@@ -1030,4 +1030,3 @@
         grid-template-columns: 1fr;
     }
 }
-

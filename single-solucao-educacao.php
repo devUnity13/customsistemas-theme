@@ -7,7 +7,7 @@
  *   single-solucao-educacao.php → single-solucao.php → single.php
  */
 
-defined( 'ABSPATH' ) || exit;
+defined('ABSPATH') || exit;
 
 get_header();
 ?>
@@ -21,7 +21,7 @@ get_header();
         <div class="ct-hero__content">
 
             <div class="ct-hero__breadcrumb">
-                <a href="<?php echo esc_url( get_post_type_archive_link( 'solucao' ) ?: home_url( '/solucoes/' ) ); ?>">
+                <a href="<?php echo esc_url(get_post_type_archive_link('solucao') ?: home_url('/solucoes/')); ?>">
                     <i class="bi bi-grid-3x3-gap"></i> Soluções
                 </a>
                 <i class="bi bi-chevron-right"></i>
@@ -39,7 +39,8 @@ get_header();
             </h1>
 
             <p class="ct-hero__desc">
-                Sistema em nuvem desenhado para simplificar e otimizar a administração da rede de ensino municipal. Gerencie turmas, alunos, matrizes curriculares e avaliações de qualquer lugar e a qualquer momento.
+                Sistema em nuvem desenhado para simplificar e otimizar a administração da rede de ensino municipal.
+                Gerencie turmas, alunos, matrizes curriculares e avaliações de qualquer lugar e a qualquer momento.
             </p>
 
             <div class="ct-hero__stats">
@@ -60,7 +61,7 @@ get_header();
             </div>
 
             <div class="ct-hero__actions">
-                <a href="<?php echo esc_url( home_url( '/contato/' ) ); ?>" class="btn-custom-primary btn-lg">
+                <a href="<?php echo esc_url(home_url('/contato/')); ?>" class="btn-custom-primary btn-lg">
                     <i class="bi bi-calendar-check"></i>
                     Solicitar demonstração
                 </a>
@@ -75,7 +76,7 @@ get_header();
         <div class="ct-hero__visual">
             <div class="ct-hero__mockup">
                 <img class="ct-hero__mockup-img" src="<?php echo custom_img('modelo.png'); ?>" alt="Mockup Educação">
-                
+
                 <!-- Floating badges -->
                 <div class="ct-mockup-badge ct-mockup-badge--br">
                     <i class="bi bi-check-circle-fill"></i>
@@ -89,7 +90,7 @@ get_header();
     <!-- Decorative wave -->
     <div class="ct-hero__wave">
         <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-            <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+            <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="#ffffff" />
         </svg>
     </div>
 </section>
@@ -129,12 +130,12 @@ get_header();
             <div class="section-label">Sobre o Sistema</div>
             <h2>Gestão inteligente da rede de ensino</h2>
             <p>
-                O sistema de Educação proporciona um ambiente completo e integrado para o controle escolar, 
+                O sistema de Educação proporciona um ambiente completo e integrado para o controle escolar,
                 atendendo às necessidades de escolas, professores e da própria Secretaria de Educação.
             </p>
             <p>
-                Com recursos avançados de Inteligência Artificial para identificar riscos de evasão e reprovação, 
-                aliado à gestão de vagas, matrículas e diário de classe digital, a sua rede municipal transforma o 
+                Com recursos avançados de Inteligência Artificial para identificar riscos de evasão e reprovação,
+                aliado à gestão de vagas, matrículas e diário de classe digital, a sua rede municipal transforma o
                 dia a dia das escolas com tecnologia de ponta, 100% adaptada à Base Nacional Comum Curricular (BNCC).
             </p>
 
@@ -290,7 +291,8 @@ get_header();
                 </div>
                 <div>
                     <h4>BNCC Integrada</h4>
-                    <p>Gerenciamento completo das etapas do ensino fundamentado 100% na Base Nacional Comum Curricular (BNCC).</p>
+                    <p>Gerenciamento completo das etapas do ensino fundamentado 100% na Base Nacional Comum Curricular
+                        (BNCC).</p>
                 </div>
             </div>
 
@@ -300,7 +302,8 @@ get_header();
                 </div>
                 <div>
                     <h4>Calendários Customizáveis</h4>
-                    <p>As escolas podem personalizar seus próprios quadros de atividades a partir das premissas lançadas pela secretaria central.</p>
+                    <p>As escolas podem personalizar seus próprios quadros de atividades a partir das premissas lançadas
+                        pela secretaria central.</p>
                 </div>
             </div>
 
@@ -310,7 +313,8 @@ get_header();
                 </div>
                 <div>
                     <h4>Boletins e Avaliações Flexíveis</h4>
-                    <p>Permite a criação de múltiplos modelos adaptáveis de boletins escolares e diferentes metodologias ou conceitos conceituais.</p>
+                    <p>Permite a criação de múltiplos modelos adaptáveis de boletins escolares e diferentes metodologias
+                        ou conceitos conceituais.</p>
                 </div>
             </div>
 
@@ -320,7 +324,8 @@ get_header();
                 </div>
                 <div>
                     <h4>Frequência Biométrica</h4>
-                    <p>Traz o moderno recurso inovador e indispensável que é o efetivo controle diário embasado através do reconhecimento facial dos matriculados.</p>
+                    <p>Traz o moderno recurso inovador e indispensável que é o efetivo controle diário embasado através
+                        do reconhecimento facial dos matriculados.</p>
                 </div>
             </div>
 
@@ -330,7 +335,8 @@ get_header();
                 </div>
                 <div>
                     <h4>Integração Google Classroom</h4>
-                    <p>Mantenha turmas virtuais sincrônicas criadas em poucos cliques para suporte ao eficiente ensino dinâmico em modelos modernos híbridos.</p>
+                    <p>Mantenha turmas virtuais sincrônicas criadas em poucos cliques para suporte ao eficiente ensino
+                        dinâmico em modelos modernos híbridos.</p>
                 </div>
             </div>
 
@@ -340,7 +346,8 @@ get_header();
                 </div>
                 <div>
                     <h4>LGPD e Segurança de Dados</h4>
-                    <p>Rotinas robustas em servidores focadas especificamente em total proteção de banco de informações seguindo rígida proteção legal.</p>
+                    <p>Rotinas robustas em servidores focadas especificamente em total proteção de banco de informações
+                        seguindo rígida proteção legal.</p>
                 </div>
             </div>
 
@@ -409,8 +416,10 @@ get_header();
             <div class="ct-case__quote">
                 <i class="bi bi-quote"></i>
                 <blockquote>
-                    "Utilizando a Inteligência Artificial e o diário digitalizado, conseguimos antecipar o risco de reprovação 
-                    e agir junto às famílias em tempo recorde. Eliminamos o retrabalho excessivo manual e finalmente garantimos 
+                    "Utilizando a Inteligência Artificial e o diário digitalizado, conseguimos antecipar o risco de
+                    reprovação
+                    e agir junto às famílias em tempo recorde. Eliminamos o retrabalho excessivo manual e finalmente
+                    garantimos
                     todas as informações do Censo enviadas perfeitamente alinhadas."
                 </blockquote>
             </div>
@@ -465,7 +474,10 @@ get_header();
                     <i class="bi bi-plus-lg"></i>
                 </button>
                 <div class="ct-faq__answer">
-                    <p>Não, os trâmites do sistema Betha organizam automaticamente toda extração simplificada dos detalhamentos estatísticos do período vigente necessários aos processos anuais vitais do Educacenso oficial (Inep), agilizando a integração completa nacional sem demandar refações intensas contínuas por toda diretoria escolar.</p>
+                    <p>Não, os trâmites do sistema Betha organizam automaticamente toda extração simplificada dos
+                        detalhamentos estatísticos do período vigente necessários aos processos anuais vitais do
+                        Educacenso oficial (Inep), agilizando a integração completa nacional sem demandar refações
+                        intensas contínuas por toda diretoria escolar.</p>
                 </div>
             </div>
 
@@ -475,7 +487,10 @@ get_header();
                     <i class="bi bi-plus-lg"></i>
                 </button>
                 <div class="ct-faq__answer">
-                    <p>A sincronia otimizada efetua essa etapa morosa e vital perfeitamente, garantindo fluidez ímpar ao transferir matriculas consolidadas, currículos pedagógicos, permitindo em escassos cliques validados duplicar ou copiar cadastros de períodos idênticos entre anos para uso pronto das redes vinculadas municipais educacionais.</p>
+                    <p>A sincronia otimizada efetua essa etapa morosa e vital perfeitamente, garantindo fluidez ímpar ao
+                        transferir matriculas consolidadas, currículos pedagógicos, permitindo em escassos cliques
+                        validados duplicar ou copiar cadastros de períodos idênticos entre anos para uso pronto das
+                        redes vinculadas municipais educacionais.</p>
                 </div>
             </div>
 
@@ -485,7 +500,10 @@ get_header();
                     <i class="bi bi-plus-lg"></i>
                 </button>
                 <div class="ct-faq__answer">
-                    <p>O layout estrutural ampara perfeitamente rotinas moldadas exclusivamente às exigências normativas exclusivas aplicáveis à modalidade EJA. Permitindo o cadastro, remanejamentos fracionados flexíveis das turmas, diários específicos, matriz e apuração avaliativa simplificada conforme decretos singulares destas alas diferenciadas do aprendizado.</p>
+                    <p>O layout estrutural ampara perfeitamente rotinas moldadas exclusivamente às exigências normativas
+                        exclusivas aplicáveis à modalidade EJA. Permitindo o cadastro, remanejamentos fracionados
+                        flexíveis das turmas, diários específicos, matriz e apuração avaliativa simplificada conforme
+                        decretos singulares destas alas diferenciadas do aprendizado.</p>
                 </div>
             </div>
 
@@ -495,7 +513,11 @@ get_header();
                     <i class="bi bi-plus-lg"></i>
                 </button>
                 <div class="ct-faq__answer">
-                    <p>O ambiente provê governança sistêmica ampla descentralizada com total amparo logado colaborativo – contudo as permissões personalizáveis controlam hierarquicamente quem fará os cadastros: a gestão regional elabora base macro e matriz comum (BNCC) de onde o gestor e diretor particular definem os pormenores customizáveis nas ramificações escolares sob sua rígida gerência e alçada em localidade isolada.</p>
+                    <p>O ambiente provê governança sistêmica ampla descentralizada com total amparo logado colaborativo
+                        – contudo as permissões personalizáveis controlam hierarquicamente quem fará os cadastros: a
+                        gestão regional elabora base macro e matriz comum (BNCC) de onde o gestor e diretor particular
+                        definem os pormenores customizáveis nas ramificações escolares sob sua rígida gerência e alçada
+                        em localidade isolada.</p>
                 </div>
             </div>
 
@@ -519,16 +541,17 @@ get_header();
 
         <p>
             Capacite seus professores e integre sua gestão com diário eletrônico, inteligência artificial integrada,
-            reconhecimento facial para evitar evasão, entregando controle imediato em tempo real ao gestor 
+            reconhecimento facial para evitar evasão, entregando controle imediato em tempo real ao gestor
             da importante rede pública de forma rápida.
         </p>
 
         <div class="ct-cta__actions">
-            <a href="<?php echo esc_url( home_url( '/contato/' ) ); ?>" class="btn-custom-primary btn-lg">
+            <a href="<?php echo esc_url(home_url('/contato/')); ?>" class="btn-custom-primary btn-lg">
                 <i class="bi bi-calendar-check"></i>
                 Agendar demonstração
             </a>
-            <a href="<?php echo esc_url( get_post_type_archive_link( 'solucao' ) ?: home_url( '/solucoes/' ) ); ?>" class="btn-custom-outline btn-lg">
+            <a href="<?php echo esc_url(get_post_type_archive_link('solucao') ?: home_url('/solucoes/')); ?>"
+                class="btn-custom-outline btn-lg">
                 <i class="bi bi-arrow-left"></i>
                 Ver todas as soluções
             </a>
@@ -538,35 +561,35 @@ get_header();
 </section>
 
 <script>
-/* ── FAQ toggle específico desta página ── */
-function ctToggleFaq(btn) {
-    const item   = btn.closest('.ct-faq__item');
-    const answer = item.querySelector('.ct-faq__answer');
-    const icon   = btn.querySelector('i');
-    const isOpen = item.classList.contains('is-open');
+    /* ── FAQ toggle específico desta página ── */
+    function ctToggleFaq(btn) {
+        const item = btn.closest('.ct-faq__item');
+        const answer = item.querySelector('.ct-faq__answer');
+        const icon = btn.querySelector('i');
+        const isOpen = item.classList.contains('is-open');
 
-    // Fecha todos
-    document.querySelectorAll('.ct-faq__item.is-open').forEach(el => {
-        el.classList.remove('is-open');
-        el.querySelector('.ct-faq__answer').style.maxHeight = null;
-        el.querySelector('i').className = 'bi bi-plus-lg';
-    });
+        // Fecha todos
+        document.querySelectorAll('.ct-faq__item.is-open').forEach(el => {
+            el.classList.remove('is-open');
+            el.querySelector('.ct-faq__answer').style.maxHeight = null;
+            el.querySelector('i').className = 'bi bi-plus-lg';
+        });
 
-    if (!isOpen) {
-        item.classList.add('is-open');
-        answer.style.maxHeight = answer.scrollHeight + 'px';
-        icon.className = 'bi bi-dash-lg';
+        if (!isOpen) {
+            item.classList.add('is-open');
+            answer.style.maxHeight = answer.scrollHeight + 'px';
+            icon.className = 'bi bi-dash-lg';
+        }
     }
-}
 
-/* ── Smooth scroll ── */
-document.querySelectorAll('.ct-scroll-link').forEach(a => {
-    a.addEventListener('click', e => {
-        e.preventDefault();
-        const target = document.querySelector(a.getAttribute('href'));
-        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    /* ── Smooth scroll ── */
+    document.querySelectorAll('.ct-scroll-link').forEach(a => {
+        a.addEventListener('click', e => {
+            e.preventDefault();
+            const target = document.querySelector(a.getAttribute('href'));
+            if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
     });
-});
 </script>
 
 <?php get_footer(); ?>
