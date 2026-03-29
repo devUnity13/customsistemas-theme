@@ -1,0 +1,209 @@
+ /* ═══════════════════════════════════
+           RESPONSIVE
+        ═══════════════════════════════════ */
+ @media (max-width: 1199px) {
+     .mega-cols {
+         grid-template-columns: repeat(2, 1fr);
+     }
+
+     .tech-grid {
+         grid-template-columns: repeat(2, 1fr);
+     }
+
+     .footer-top {
+         grid-template-columns: 1fr 1fr;
+     }
+ }
+
+ @media (max-width: 991px) {
+     body {
+         padding-top: 80px;
+     }
+
+     .nav-links,
+     .nav-actions {
+         display: none;
+     }
+
+     .nav-hamburger {
+         display: flex;
+     }
+
+     .nav-inner {
+         gap: 0;
+     }
+
+     .hero-slide {
+         grid-template-columns: 1fr;
+         gap: 32px;
+         min-height: auto;
+         padding: 48px 0 80px;
+     }
+
+     .hero h1 {
+         font-size: 2rem;
+     }
+
+     .hero-image {
+         order: -1;
+         justify-content: center;
+     }
+
+     .hero-image img {
+         max-height: 300px;
+         object-fit: cover;
+     }
+
+     .hero-actions a {
+         flex: 1;
+         justify-content: center;
+     }
+
+     .carousel-item {
+         min-height: auto;
+     }
+
+     .hero-controls {
+         display: none;
+     }
+
+     .hero-indicators {
+         right: 50%;
+         transform: translateX(50%);
+         bottom: 20px;
+     }
+
+     .stats-inner {
+         grid-template-columns: repeat(2, 1fr);
+     }
+
+     .stat-item {
+         border-right: none;
+         border-bottom: 1px solid rgba(255, 255, 255, .1);
+     }
+
+     .stat-item:nth-child(3),
+     .stat-item:last-child {
+         border: none;
+     }
+
+     .especialidades-inner,
+     .tecnologias-inner,
+     .carreiras-inner {
+         grid-template-columns: 1fr;
+         gap: 48px;
+     }
+
+     .tecnologias-inner {
+         grid-template-columns: 1fr;
+     }
+
+     .carreiras-image {
+         order: 1;
+     }
+
+     .carreiras-text {
+         order: 2;
+     }
+
+     .carreiras-badge {
+         left: 8px;
+         bottom: -16px;
+     }
+
+     .footer-top {
+         grid-template-columns: 1fr 1fr;
+     }
+
+     .newsletter-form {
+         flex-direction: column;
+     }
+
+     .newsletter-form input {
+         width: 100%;
+     }
+
+     .especialidades-inner,
+     .tecnologias-inner,
+     .carreiras-inner,
+     .faq-inner,
+     .footer-inner {
+         padding-left: 24px;
+         padding-right: 24px;
+     }
+
+     .hero-wrapper,
+     .newsletter {
+         padding-left: 24px;
+         padding-right: 24px;
+     }
+
+     .stats-inner {
+         padding-left: 24px;
+         padding-right: 24px;
+     }
+
+     .mega-panel {
+         display: none;
+     }
+ }
+
+ @media (max-width: 576px) {
+     .stats-inner {
+         grid-template-columns: 1fr 1fr;
+     }
+
+     .tech-grid {
+         grid-template-columns: 1fr 1fr;
+     }
+
+     .footer-top {
+         grid-template-columns: 1fr;
+     }
+
+     .footer-bottom {
+         flex-direction: column;
+         text-align: center;
+     }
+
+     .carreiras-badge {
+         display: none;
+     }
+ }
+
+ @media (max-width: 991px) {
+     .especialidades-inner {
+         grid-template-columns: 1fr;
+     }
+
+     .especialidades-image {
+         order: -1;
+     }
+ }
+
+ @media (max-width: 768px) {
+     .search-box {
+         width: 90%;
+     }
+
+     .search-close {
+         right: -40px;
+     }
+ }
+
+ @media (max-width: 991px) {
+     .nav-mobile-actions {
+         display: flex;
+         align-items: center;
+         gap: 14px;
+         margin-left: auto;
+     }
+
+     .nav-search-trigger {
+         font-size: 20px;
+         color: #0d6efd;
+         background: none;
+         border: none;
+         cursor: pointer;
+     }
+ }

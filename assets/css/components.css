@@ -1,0 +1,68 @@
+ /* ═══════════════════════════════════
+           UTILITY
+        ═══════════════════════════════════ */
+ .chip {
+     display: inline-flex;
+     align-items: center;
+     gap: 6px;
+     background: var(--blue-pale);
+     color: var(--blue);
+     font-size: .75rem;
+     font-weight: 700;
+     letter-spacing: .08em;
+     text-transform: uppercase;
+     padding: 6px 14px;
+     border-radius: 999px;
+ }
+
+ .btn-custom-primary {
+     display: inline-flex;
+     align-items: center;
+     gap: 8px;
+     background: var(--blue);
+     color: #fff !important;
+     font-weight: 600;
+     font-size: .95rem;
+     padding: 14px 28px;
+     border-radius: var(--radius-sm);
+     border: none;
+     cursor: pointer;
+     transition: background .25s, box-shadow .25s, transform .2s;
+ }
+
+ .btn-custom-primary:hover {
+     background: var(--blue-mid);
+     box-shadow: var(--shadow-md);
+     transform: translateY(-1px);
+ }
+
+ .btn-custom-outline {
+     display: inline-flex;
+     align-items: center;
+     gap: 8px;
+     background: transparent;
+     color: var(--blue) !important;
+     font-weight: 600;
+     font-size: .95rem;
+     padding: 13px 28px;
+     border-radius: var(--radius-sm);
+     border: 1.5px solid var(--blue);
+     cursor: pointer;
+     transition: all .25s;
+ }
+
+ .btn-custom-outline:hover {
+     background: var(--blue-pale);
+     box-shadow: var(--shadow-sm);
+ }
+
+ .section-label {
+     display: block;
+     font-family: 'Plus Jakarta Sans', sans-serif;
+     font-size: .75rem;
+     font-weight: 700;
+     letter-spacing: .12em;
+     text-transform: uppercase;
+     color: var(--blue);
+     margin-bottom: 16px;
+ }

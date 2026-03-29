@@ -1,0 +1,19 @@
+/*
+Theme Name:  Custom Sistemas
+Theme URI:   https://customsistemas.com.br
+Author:      Custom Sistemas
+Author URI:  https://customsistemas.com.br
+Description: Tema corporativo para a Custom Sistemas — Gestão Pública Inteligente. Bootstrap 5 + WP Bootstrap Navwalker.
+Version:     1.0.0
+Requires at least: 6.0
+Tested up to: 6.5
+Requires PHP: 8.0
+License:     Proprietary
+Text Domain: custom-sistemas
+*/
+
+/*
+ * Este arquivo é intencionalmente quase vazio.
+ * Todo o CSS do tema está em assets/css/ e é enfileirado via inc/enqueue.php.
+ * O WordPress exige apenas que este arquivo exista e contenha o cabeçalho acima.
+ */

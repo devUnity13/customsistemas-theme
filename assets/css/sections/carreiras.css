@@ -1,0 +1,98 @@
+/* ═══════════════════════════════════
+           CARREIRAS
+        ═══════════════════════════════════ */
+.carreiras {
+    padding: 120px 0;
+    background: linear-gradient(160deg, #F9FBFF 0%, var(--white) 100%);
+}
+
+.carreiras-inner {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.carreiras-image {
+    position: relative;
+    order: 2;
+}
+
+.carreiras-image img {
+    width: 100%;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+
+.carreiras-badge {
+    position: absolute;
+    bottom: 24px;
+    left: -24px;
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    padding: 16px 20px;
+    box-shadow: var(--shadow-md);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.carreiras-badge i {
+    font-size: 1.8rem;
+    color: var(--blue);
+}
+
+.carreiras-badge strong {
+    display: block;
+    font-size: 1.2rem;
+    color: var(--ink);
+}
+
+.carreiras-badge span {
+    font-size: .78rem;
+    color: var(--ink-muted);
+}
+
+.carreiras-text {
+    order: 1;
+}
+
+.carreiras-text h2 {
+    font-size: clamp(2rem, 3vw, 2.8rem);
+    margin-bottom: 20px;
+}
+
+.carreiras-text p {
+    font-size: 1rem;
+    color: var(--ink-light);
+    margin-bottom: 32px;
+}
+
+.benefit-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.benefit-list li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: .95rem;
+    font-weight: 500;
+    color: var(--ink-mid);
+}
+
+.benefit-list li i {
+    color: var(--blue);
+    font-size: 1rem;
+}

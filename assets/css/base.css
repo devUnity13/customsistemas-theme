@@ -1,0 +1,65 @@
+        /* ═══════════════════════════════════
+           TOKENS & RESET
+        ═══════════════════════════════════ */
+        :root {
+            --blue: #0A52CC;
+            --blue-mid: #1261E0;
+            --blue-light: #3B82F6;
+            --blue-pale: #EFF6FF;
+            --ink: #07111F;
+            --ink-mid: #1E293B;
+            --ink-light: #475569;
+            --ink-muted: #94A3B8;
+            --surface: #F8FAFF;
+            --white: #FFFFFF;
+            --border: #E2E8F0;
+            --radius-sm: 8px;
+            --radius-md: 16px;
+            --radius-lg: 24px;
+            --radius-xl: 40px;
+            --shadow-sm: 0 2px 8px rgba(10, 82, 204, .08);
+            --shadow-md: 0 8px 32px rgba(10, 82, 204, .12);
+            --shadow-lg: 0 24px 64px rgba(10, 82, 204, .16);
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--white);
+            color: var(--ink-mid);
+            overflow-x: hidden;
+            padding-top: 80px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-family: 'Inter', serif;
+            color: var(--ink);
+            line-height: 1.15;
+        }
+
+        p {
+            line-height: 1.7;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
